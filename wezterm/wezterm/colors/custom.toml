@@ -1,0 +1,79 @@
+[colors]
+ansi = [
+    '#282A36',  # black
+    '#F37F97',  # red
+    '#5ADECD',  # green
+    '#F2A272',  # yellow
+    '#8897F4',  # blue
+    '#C574DD',  # magenta
+    '#79E6F3',  # cyan
+    '#FDFDFD',  # white
+]
+background = '#1D1F28'  # Updated background color
+brights = [
+    '#414458',  # bright black
+    '#FF4971',  # bright red
+    '#18E3C8',  # bright green
+    '#EBCB8B',  # bright yellow
+    '#FF8037',  # bright blue
+    '#556FFF',  # bright magenta
+    '#3FDCEE',  # bright cyan
+    '#BEBEC1',  # bright white
+]
+
+compose_cursor = '#ffb86c'
+cursor_bg = '#5ADECD'  # Use updated green color
+cursor_border = '#5ADECD'  # Same as cursor_bg
+cursor_fg = '#FDFDFD'  # Updated foreground color
+foreground = '#FDFDFD'  # Updated foreground color
+selection_bg = '#FDFDFD'  # Updated foreground color
+selection_fg = '#1D1F28'  # Updated background color
+# selection_bg = 'rgba(26.666668% 27.843138% 35.294117% 50%)'
+# selection_fg = 'rgba(0% 0% 0% 0%)'
+scrollbar_thumb = '#44475a'
+split = '#6272a4'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#1D1F28'  # Updated background color
+
+[colors.tab_bar.active_tab]
+bg_color = '#C574DD'  # Use updated magenta
+fg_color = '#1D1F28'  # Updated background color
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#1D1F28'  # Updated background color
+fg_color = '#FDFDFD'  # Updated foreground color
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#6272a4'
+fg_color = '#FDFDFD'  # Updated foreground color
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#1D1F28'  # Updated background color
+fg_color = '#FDFDFD'  # Updated foreground color
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#FF4971'  # Use updated bright red
+fg_color = '#FDFDFD'  # Updated foreground color
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
