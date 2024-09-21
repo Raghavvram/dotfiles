@@ -1,0 +1,38 @@
+import = [
+    "C:/Users/ragha/AppData/Roaming/alacritty/alacritty-theme/themes/thelovelace.toml"
+]
+
+[shell]
+program = "C:/Program Files/Git/bin/bash.exe -i -l"
+
+[cursor]
+style = "Underline"
+#blinking = "off"
+
+[font]
+size = 18.0
+
+[font.normal]
+family = "RecMonoSmCasual Nerd Font"
+style = "Bold"
+
+[window]
+startup_mode = "Maximized"
+blur = true
+decorations = "Full"
+decorations_theme_variant = "Dark"
+dynamic_padding = true
+opacity = 0.8
+
+[window.padding]
+x = 6
+y = 3
+
+#[window.dimensions]
+#columns = 90
+#lines = 25
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+

@@ -1,0 +1,9 @@
+# yazi.toml
+[manager]
+ratio          = [ 2, 2, 4 ]
+show_hidden = true
+sort_dir_first = true
+sort_by        = "alphabetical"
+linemode = "size"
+[preview]
+wrap = "yes"
