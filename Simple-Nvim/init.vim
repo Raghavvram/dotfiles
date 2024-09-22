@@ -6,4 +6,3 @@ syntax on
 set cursorline
 set ttyfast
 filetype plugin on
-
