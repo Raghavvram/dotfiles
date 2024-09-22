@@ -1,2 +1,2 @@
-# dot-file-config-files
+# dotfiles
 Collection of all my configuration files
