@@ -2,6 +2,7 @@
 {
 	name = "modern"
 	dark = true
+	font.name = "RecMonoSmCasual Nerd Font"
 	background
 	{
 		color = default
