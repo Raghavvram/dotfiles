@@ -31,7 +31,6 @@ set softtabstop=4
 set shiftwidth=4
 set smarttab
 set encoding=UTF-8
-set visualbell
 set scrolloff=5
 
 " Use Rose-Pine color scheme
