@@ -51,3 +51,8 @@ full_symbol = ""
 disabled = false
 style = "bold red"
 threshold = 15
+
+[[battery.display]] # "bold yellow" style when capacity is between 15% and 50%
+disabled = true
+style = "bold yellow"
+threshold = 50
