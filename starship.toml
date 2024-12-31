@@ -13,3 +13,10 @@ format = "[$hostname]($style) in "
 ssh_only = false
 style = "bold dimmed red"
 trim_at = "-"
+
+# Third param
+[directory]
+style = "purple"
+truncate_to_repo = true
+truncation_length = 0
+truncation_symbol = "repo: "
