@@ -8,7 +8,7 @@ style_user = "bold red"
 
 # Second param
 [hostname]
-disabled = false
+# disabled = false
 format = "[$hostname]($style) in "
 ssh_only = false
 style = "bold dimmed red"
@@ -23,7 +23,7 @@ truncation_symbol = "repo: "
 
 # Fourth param
 [sudo]
-disabled = false
+# disabled = false
 
 # Before all the version info (python, nodejs, php, etc.)
 [git_status]
@@ -35,7 +35,7 @@ style = "white"
 
 # Last param in the first line/row
 [cmd_duration]
-disabled = false
+# disabled = false
 format = "took [$duration]($style)"
 min_time = 1
 
@@ -43,28 +43,28 @@ min_time = 1
 # Somethere at the beginning
 [battery]
 charging_symbol = ""
-disabled = true
+# disabled = true
 discharging_symbol = ""
 full_symbol = ""
 
 [[battery.display]] # "bold red" style when capacity is between 0% and 15%
-disabled = false
+# disabled = false
 style = "bold red"
 threshold = 15
 
 [[battery.display]] # "bold yellow" style when capacity is between 15% and 50%
-disabled = true
+# disabled = true
 style = "bold yellow"
 threshold = 50
 
 [[battery.display]] # "bold green" style when capacity is between 50% and 80%
-disabled = true
+# disabled = false
 style = "bold green"
 threshold = 80
 
 # Prompt: optional param 1
 [time]
-disabled = true
+# disabled = true
 format = " 🕙 $time($style)\n"
 style = "bright-white"
 time_format = "%T"
@@ -76,7 +76,7 @@ success_symbol = " [╰─λ](bold red)"
 
 # SYMBOLS
 [status]
-disabled = false
+# disabled = false
 format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 pipestatus = true
@@ -144,4 +144,3 @@ symbol = " "
 
 [swift]
 symbol = "ﯣ "
-
