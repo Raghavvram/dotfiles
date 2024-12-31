@@ -69,3 +69,8 @@ format = " 🕙 $time($style)\n"
 style = "bright-white"
 time_format = "%T"
 
+# Prompt: param 2
+[character]
+error_symbol = " [×](bold red)"
+success_symbol = " [╰─λ](bold red)"
+
