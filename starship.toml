@@ -20,3 +20,7 @@ style = "purple"
 truncate_to_repo = true
 truncation_length = 0
 truncation_symbol = "repo: "
+
+# Fourth param
+[sudo]
+disabled = false
