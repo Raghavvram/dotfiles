@@ -5,3 +5,11 @@ format = " [╭─$user]($style)@"
 show_always = true
 style_root = "bold red"
 style_user = "bold red"
+
+# Second param
+[hostname]
+disabled = false
+format = "[$hostname]($style) in "
+ssh_only = false
+style = "bold dimmed red"
+trim_at = "-"
