@@ -12,7 +12,14 @@ vsync = true
 wsl = false
 
 [font]
-normal =["RecMonoSmCasual Nerd Font"] # Will use the bundled Fira Code Nerd Font by default
+normal =["CodeNewRoman Nerd Font Mono"] # Will use the bundled Fira Code Nerd Font by default
 size = 20.0
 style = "Bold"
-#style = "W600"
+# style = "W600"
+
+# Add these lines for transparency 
+transparency = true 
+transparency_amount = 0.6
+background_opacity = 0.6
+
+# Add padding 

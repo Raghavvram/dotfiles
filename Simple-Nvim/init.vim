@@ -16,7 +16,7 @@ Plug 'https://github.com/mbbill/undotree'
 Plug 'vim-python/python-syntax'
 Plug 'alvan/vim-closetag'
 Plug 'https://github.com/rose-pine/neovim'
-" Plug 'rose-pine/neovim', as: 'rose-pine'
+Plug 'thedenisnikulin/vim-cyberpunk'
 
 call plug#end()
 
@@ -33,9 +33,13 @@ set smarttab
 set encoding=UTF-8
 set scrolloff=5
 
-" Use Rose-Pine color scheme
-set background=dark
-:colorscheme rose-pine
+set termguicolors
+colorscheme cyberpunk
+
+" let g:airline_theme='cyberpunk'
+" set cursorline
+" let g:cyberpunk_cursorline="black"
+
 let g:airline_theme='transparent'
 
 
@@ -51,3 +55,19 @@ nnoremap <C-l> :UndotreeToggle<CR>
 
 " Tagbar
 " nmap <F6> :TagbarToggle<CR>
+"
+
+" Neovim configuration for Neovide transparency
+if exists("g:neovide")
+  let g:neovide_transparency=0.6
+  let g:neovide_background_color='#0f1117'.printf('%x', float2nr(255 * g:neovide_transparency))
+endif
+
+" Set the background color to a transparent-friendly color
+highlight Normal ctermbg=none guibg=none
+highlight NonText ctermbg=none guibg=none
+
+" Optional: Transparent line numbers
+highlight LineNr ctermbg=none guibg=none
+highlight EndOfBuffer ctermbg=none guibg=none
+

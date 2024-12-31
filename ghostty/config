@@ -1,4 +1,4 @@
-theme = rose-pine
+theme = CyberpunkScarletProtocol
 background = #000000
 background-opacity = 0.65
 background-blur-radius = 15
@@ -25,3 +25,4 @@ keybind = super+shift+space=toggle_quick_terminal
 keybind = ctrl+z=close_surface
 keybind = ctrl+d=new_split:right
 keybind = ctrl+e=new_split:down
+
