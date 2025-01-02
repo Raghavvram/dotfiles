@@ -26,3 +26,4 @@ keybind = ctrl+z=close_surface
 keybind = ctrl+d=new_split:right
 keybind = ctrl+e=new_split:down
 
+# place this file in ~/.config/ghostty/config
