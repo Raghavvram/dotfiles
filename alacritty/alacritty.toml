@@ -62,7 +62,6 @@ cursor = "CellForeground"
 # Colors configuration
 [colors]
 # Set primary colors
-primary:
 
 # Set selection color
 
