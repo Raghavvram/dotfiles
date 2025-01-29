@@ -1,3 +1,4 @@
+# Theme and Appearance
 theme = CyberpunkScarletProtocol
 background = #000000
 background-opacity = 0.65
@@ -9,21 +10,36 @@ cursor-style = underline
 cursor-style-blink = false
 shell-integration-features = no-cursor
 
+# Window Behavior
 confirm-close-surface = false
 window-decoration = false
 window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
 
+# Updates
 auto-update = check
 
-
 # Keybindings
+keybind = super+i=inspector:toggle  # Toggle Inspector
+keybind = super+shift+space=toggle_quick_terminal  # Toggle Quick Terminal
+keybind = ctrl+z=close_surface  # Close Surface
+keybind = ctrl+d=new_split:right  # New Split Right
+keybind = ctrl+e=new_split:down  # New Split Down
 
-keybind = super+i=inspector:toggle
-keybind = super+shift+space=toggle_quick_terminal
-keybind = ctrl+z=close_surface
-keybind = ctrl+d=new_split:right
-keybind = ctrl+e=new_split:down
+# Custom Keybindings
+keybind = super+n=new_tab  # Open a New Tab
+keybind = super+w=close_tab  # Close Current Tab
+keybind = ctrl+shift+c=copy_path  # Copy File Path
+keybind = ctrl+shift+v=paste_path  # Paste File Path
+keybind = ctrl+shift+f=find_in_files  # Find in Files
+keybind = super+p=command_palette  # Open Command Palette
 
-# place this file in ~/.config/ghostty/config
+# Comments for Clarity
+# Theme and Appearance settings define how the terminal looks.
+# Window Behavior settings manage window actions and display.
+# Keybindings set shortcuts for commonly used functions.
+# Custom Keybindings add new functionalities to enhance workflow.
+# Comments help to understand the purpose of each setting.
+
+# Place this file in ~/.config/ghostty/config
