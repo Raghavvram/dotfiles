@@ -63,3 +63,19 @@ highlight Normal ctermbg=none guibg=none
 highlight NonText ctermbg=none guibg=none
 highlight LineNr ctermbg=none guibg=none
 highlight EndOfBuffer ctermbg=none guibg=none
+
+" Custom Keybindings for Pane Navigation using Alt + Arrow Keys
+nnoremap <A-Left> :wincmd h<CR>
+nnoremap <A-Right> :wincmd l<CR>
+nnoremap <A-Up> :wincmd k<CR>
+nnoremap <A-Down> :wincmd j<CR>
+
+inoremap <A-Left> <Esc>:wincmd h<CR>
+inoremap <A-Right> <Esc>:wincmd l<CR>
+inoremap <A-Up> <Esc>:wincmd k<CR>
+inoremap <A-Down> <Esc>:wincmd j<CR>
+
+tnoremap <A-Left> <C-\><C-n>:wincmd h<CR>
+tnoremap <A-Right> <C-\><C-n>:wincmd l<CR>
+tnoremap <A-Up> <C-\><C-n>:wincmd k<CR>
+tnoremap <A-Down> <C-\><C-n>:wincmd j<CR>
