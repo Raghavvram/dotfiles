@@ -1,4 +1,3 @@
-if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
     if [ -f "/home/raghav/miniconda3/etc/profile.d/conda.sh" ]; then
