@@ -76,7 +76,7 @@ function extract
     end
 end
 
----
+#############################################################################
 
 # Custom Keybindings:
 # Ctrl+t: Create a new tmux session.
