@@ -1,5 +1,3 @@
-        . "/home/raghav/miniconda3/etc/profile.d/conda.sh"
-    else
         export PATH="/home/raghav/miniconda3/bin:$PATH"
     fi
 fi
