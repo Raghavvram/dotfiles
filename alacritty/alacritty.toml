@@ -1,1 +1,9 @@
+# Example custom shortcut: Ctrl+Alt+F to find text
+[[keybindings.find_text]]
+mods = ["CTRL", "ALT"]
+key = "F"
 
+# Example custom shortcut: Ctrl+Alt+R to reload configuration
+[[keybindings.reload_config]]
+mods = ["CTRL", "ALT"]
+key = 
