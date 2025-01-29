@@ -67,7 +67,6 @@ primary:
   foreground: "0xf8f8f2"
 
 # Set selection color
-selection:
 
 # Set color scheme for normal mode
 
