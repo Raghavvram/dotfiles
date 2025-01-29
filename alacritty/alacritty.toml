@@ -1,1 +1,14 @@
-
+# Window configuration
+[window]
+# Start the window maximized
+startup_mode = "Maximized"
+# Enable window blur effect
+blur = true
+# Use full decorations for the window
+decorations = "Full"
+# Use dark theme variant for decorations
+decorations_theme_variant = "Dark"
+# Enable dynamic padding
+dynamic_padding = true
+# Set window opacity
+opacity = 0.8
