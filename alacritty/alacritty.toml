@@ -6,9 +6,3 @@ x = 6
 # Set vertical padding
 y = 3
 
-# Uncomment the following lines to set custom window dimensions
-# [window.dimensions]
-# columns = 90
-# lines = 25
-
-
