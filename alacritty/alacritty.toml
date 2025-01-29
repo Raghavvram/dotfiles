@@ -1,1 +1,10 @@
+# Example custom shortcut: Ctrl+Q to close the window
+[[keybindings.close_window]]
+mods = ["CTRL"]
+key = "Q"
+
+# Example custom shortcut: Alt+Enter to toggle fullscreen mode
+[[keybindings.toggle_fullscreen]]
+mods = ["ALT"]
+key = "Enter"
 
