@@ -1,1 +1,13 @@
+Uncomment the following line to disable cursor blinking
+# blinking = "off"
 
+# Font configuration
+[font]
+# Set font size
+size = 18.0
+
+# Font family fallback list
+[font.normal]
+# Try these fonts in order: RecMonoSmCasual Nerd Font, CodeNewRoman NF, JetBrainsMono
+family = ["RecMonoSmCasual Nerd Font", "CodeNewRoman NF", "JetBrainsMono"]
+style = "Bold"
