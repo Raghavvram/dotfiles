@@ -1,5 +1,3 @@
-alias lgout='bash ~/Documents/scripts/logout.sh'
-
 # StartUp
 # fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
 
