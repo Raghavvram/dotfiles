@@ -1,8 +1,1 @@
 
-# Window padding configuration
-[window.padding]
-# Set horizontal padding
-x = 6
-# Set vertical padding
-y = 3
-
