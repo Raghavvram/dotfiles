@@ -59,12 +59,6 @@ text = "CellBackground"
 # Set cursor color to match cell foreground
 cursor = "CellForeground"
 
-
-
-
-
-
-
 # Custom keybindings
 [keybindings]
 # Example custom shortcut: Ctrl+Shift+T to open a new tab
