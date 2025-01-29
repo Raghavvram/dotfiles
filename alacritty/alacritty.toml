@@ -1,1 +1,19 @@
 
+# Window padding configuration
+[window.padding]
+# Set horizontal padding
+x = 6
+# Set vertical padding
+y = 3
+
+# Uncomment the following lines to set custom window dimensions
+# [window.dimensions]
+# columns = 90
+# lines = 25
+
+# Cursor color configuration
+[colors.cursor]
+# Set cursor text color to match cell background
+text = "CellBackground"
+# Set cursor color to match cell foreground
+cursor = "CellForeground"
