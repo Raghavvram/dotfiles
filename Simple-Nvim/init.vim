@@ -83,7 +83,6 @@ tnoremap <A-Down> <C-\><C-n>:wincmd j<CR>
 " Keybindings for Tab Management
 " Create new tab
 nnoremap <A-c> :tabnew<CR>
-
 " Close current tab
 nnoremap <A-w> :tabclose<CR>
 
