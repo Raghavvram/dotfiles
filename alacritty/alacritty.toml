@@ -95,3 +95,5 @@ key = "F"
 [[keybindings.reload_config]]
 mods = ["CTRL", "ALT"]
 key = "R"
+
+
