@@ -94,17 +94,17 @@ alias purge='sudo nala purge'
 abbr ls 'lsd -a'
 abbr cp 'cp -r'
 
-export PATH="$PATH:/home/raghav/projects/OpenSK/elf2tab/bin"
+export PATH="$PATH:~/projects/OpenSK/elf2tab/bin"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f /home/raghav/miniconda3/bin/conda
-    eval /home/raghav/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f ~/miniconda3/bin/conda
+    eval ~/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 else
-    if test -f "/home/raghav/miniconda3/etc/fish/conf.d/conda.fish"
-        . "/home/raghav/miniconda3/etc/fish/conf.d/conda.fish"
+    if test -f "~/miniconda3/etc/fish/conf.d/conda.fish"
+        . "~/miniconda3/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/home/raghav/miniconda3/bin" $PATH
+        set -x PATH "~/miniconda3/bin" $PATH
     end
 end
 # <<< conda initialize <<<
