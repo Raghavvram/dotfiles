@@ -1,1 +1,6 @@
-
+# Custom keybindings
+[keybindings]
+# Example custom shortcut: Ctrl+Shift+T to open a new tab
+[[keybindings.new_tab]]
+mods = ["CTRL", "SHIFT"]
+key = "T"
