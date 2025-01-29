@@ -12,7 +12,7 @@ import = ["themes/thelovelace.toml"]
 # Set cursor style to underline
 style = "Underline"
 # Uncomment the following line to disable cursor blinking
-# blinking = "off"
+ blinking = "off"
 
 # Font configuration
 [font]
