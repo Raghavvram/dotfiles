@@ -63,7 +63,6 @@ cursor = "CellForeground"
 [colors]
 # Set primary colors
 primary:
-  background: "0x282c34"
 
 # Set selection color
 
