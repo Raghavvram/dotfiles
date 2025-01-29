@@ -87,6 +87,5 @@ nnoremap <A-c> :tabnew<CR>
 nnoremap <A-w> :tabclose<CR>
 " Switch to next tab
 nnoremap <A-n> :tabnext<CR>
-
 " Switch to previous tab
 nnoremap <A-p> :tabprevious<CR>
