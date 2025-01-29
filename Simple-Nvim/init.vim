@@ -1,14 +1,12 @@
- "Plugins
-
+" Plugins
 call plug#begin()
 
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
-Plug 'https://github.com/preservim/nerdtree' ", {'on': 'NERDTreeToggle'}
+Plug 'https://github.com/preservim/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'https://github.com/vim-airline/vim-airline-themes'
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
-" Plug 'https://github.com/preservim/tagbar', {'on': 'TagbarToggle'} " Tagbar for code navigation
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
 Plug 'https://github.com/navarasu/onedark.nvim'
@@ -17,11 +15,15 @@ Plug 'vim-python/python-syntax'
 Plug 'alvan/vim-closetag'
 Plug 'https://github.com/rose-pine/neovim'
 Plug 'thedenisnikulin/vim-cyberpunk'
+Plug 'airblade/vim-gitgutter' " Git diff in sign column
+Plug 'dense-analysis/ale' " Linting and fixing code
+Plug 'itchyny/lightline.vim' " Lightweight statusline
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Better syntax highlighting
 
 call plug#end()
 
 " General Configuration
-
 set number
 set relativenumber
 set mouse=a
@@ -32,30 +34,23 @@ set shiftwidth=4
 set smarttab
 set encoding=UTF-8
 set scrolloff=5
-
 set termguicolors
-colorscheme cyberpunk
+colorscheme onedark
 
-" let g:airline_theme='cyberpunk'
-" set cursorline
-" let g:cyberpunk_cursorline="black"
-
-let g:airline_theme='transparent'
-
+let g:airline_theme='onedark'
 
 " Nerd Tree
-
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 let g:python_highlight_all = 1
 
+" Keybindings
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :UndotreeToggle<CR>
-
-
-" Tagbar
-" nmap <F6> :TagbarToggle<CR>
-"
+" Copy to clipboard
+vnoremap <C-c> "+y
+nnoremap <C-v> "+p
+inoremap <C-v> <C-r>+
 
 " Neovim configuration for Neovide transparency
 if exists("g:neovide")
@@ -66,8 +61,5 @@ endif
 " Set the background color to a transparent-friendly color
 highlight Normal ctermbg=none guibg=none
 highlight NonText ctermbg=none guibg=none
-
-" Optional: Transparent line numbers
 highlight LineNr ctermbg=none guibg=none
 highlight EndOfBuffer ctermbg=none guibg=none
-
