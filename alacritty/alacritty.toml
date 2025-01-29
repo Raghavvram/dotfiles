@@ -33,6 +33,6 @@ y = 3
 #lines = 25
 
 [colors.cursor]
-text = "CellBackground"
+
 
 
