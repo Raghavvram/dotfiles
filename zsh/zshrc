@@ -1,5 +1,3 @@
-# Alias
-alias ls='lsd -a'
 alias install='sudo nala install'
 alias purge='sudo nala purge'
 alias update='sudo nala update && sudo nala full-upgrade -y'
