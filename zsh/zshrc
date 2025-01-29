@@ -1,7 +1,6 @@
 
 
 # Custom color scheme
-DARK_RED='#8B0000'
 
 # Set syntax highlighting colors
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
