@@ -65,7 +65,6 @@ cursor = "CellForeground"
 
 # Set selection color
 
-# Set color scheme for normal mode
 
 # Custom keybindings
 [keybindings]
