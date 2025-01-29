@@ -78,7 +78,7 @@ end
 
 ---
 
-Custom Keybindings:
+# Custom Keybindings:
 # Ctrl+t: Create a new tmux session.
 # Ctrl+s: Save and close the current file (useful for text editors like nano).
 # Ctrl+q: Quit the terminal.
