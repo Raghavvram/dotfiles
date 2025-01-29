@@ -84,7 +84,7 @@ Ctrl+s: Save and close the current file (useful for text editors like nano).
 Ctrl+q: Quit the terminal.
 Ctrl+r: Reverse search through command history.
 Ctrl+l: Clear the screen.
-Ctrl+p: Open fzf (fuzzy finder) for quick file search.
+# Ctrl+p: Open fzf (fuzzy finder) for quick file search.
 
 # Custom Functions:
 # extract function: Automatically extract files based on their extensions (supports tar.gz, tgz, tar.bz2, tbz, tar.xz, txz, tar, gz, bz2, xz, zip, rar, and others).
