@@ -73,7 +73,6 @@ selection:
 # Set color scheme for normal mode
 normal:
   black:   "0x282a36"
-  red:     "0xff5555"
 
 
 
