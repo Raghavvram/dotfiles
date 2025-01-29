@@ -85,7 +85,6 @@ tnoremap <A-Down> <C-\><C-n>:wincmd j<CR>
 nnoremap <A-c> :tabnew<CR>
 " Close current tab
 nnoremap <A-w> :tabclose<CR>
-
 " Switch to next tab
 nnoremap <A-n> :tabnext<CR>
 
