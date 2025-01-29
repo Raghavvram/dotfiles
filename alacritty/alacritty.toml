@@ -1,1 +1,129 @@
+# Import themes
+import = ["themes/thelovelace.toml"]
 
+# Shell program configuration
+[shell]
+# Use Git Bash as the shell program
+program = "C:/Program Files/Git/bin/bash.exe -i -l"
+
+# Cursor configuration
+[cursor]
+# Set cursor style to underline
+style = "Underline"
+# Uncomment the following line to disable cursor blinking
+# blinking = "off"
+
+# Font configuration
+[font]
+# Set font size
+size = 18.0
+
+# Font family fallback list
+[font.normal]
+# Try these fonts in order: RecMonoSmCasual Nerd Font, CodeNewRoman NF, JetBrainsMono
+family = ["RecMonoSmCasual Nerd Font", "CodeNewRoman NF", "JetBrainsMono"]
+style = "Bold"
+
+# Window configuration
+[window]
+# Start the window maximized
+startup_mode = "Maximized"
+# Enable window blur effect
+blur = true
+# Use full decorations for the window
+decorations = "Full"
+# Use dark theme variant for decorations
+decorations_theme_variant = "Dark"
+# Enable dynamic padding
+dynamic_padding = true
+# Set window opacity
+opacity = 0.8
+
+# Window padding configuration
+[window.padding]
+# Set horizontal padding
+x = 6
+# Set vertical padding
+y = 3
+
+# Uncomment the following lines to set custom window dimensions
+# [window.dimensions]
+# columns = 90
+# lines = 25
+
+# Cursor color configuration
+[colors.cursor]
+# Set cursor text color to match cell background
+text = "CellBackground"
+# Set cursor color to match cell foreground
+cursor = "CellForeground"
+
+# Colors configuration
+[colors]
+# Set primary colors
+primary:
+  background: "0x282c34"
+  foreground: "0xf8f8f2"
+
+# Set selection color
+selection:
+  background: "0x44475a"
+
+# Set color scheme for normal mode
+normal:
+  black:   "0x282a36"
+  red:     "0xff5555"
+  green:   "0x50fa7b"
+  yellow:  "0xf1fa8c"
+  blue:    "0xbd93f9"
+  magenta: "0xff79c6"
+  cyan:    "0x8be9fd"
+  white:   "0xbbc2cf"
+
+# Set color scheme for bright mode
+bright:
+  black:   "0x6272a4"
+  red:     "0xff6e6e"
+  green:   "0x69ff94"
+  yellow:  "0xffffa5"
+  blue:    "0xd6acff"
+  magenta: "0xff92df"
+  cyan:    "0xa4ffff"
+  white:   "0xffffff"
+
+# Custom keybindings
+[keybindings]
+# Example custom shortcut: Ctrl+Shift+T to open a new tab
+[[keybindings.new_tab]]
+mods = ["CTRL", "SHIFT"]
+key = "T"
+
+# Example custom shortcut: Ctrl+Q to close the window
+[[keybindings.close_window]]
+mods = ["CTRL"]
+key = "Q"
+
+# Example custom shortcut: Alt+Enter to toggle fullscreen mode
+[[keybindings.toggle_fullscreen]]
+mods = ["ALT"]
+key = "Enter"
+
+# Example custom shortcut: Ctrl+Shift+C to copy
+[[keybindings.copy]]
+mods = ["CTRL", "SHIFT"]
+key = "C"
+
+# Example custom shortcut: Ctrl+Shift+V to paste
+[[keybindings.paste]]
+mods = ["CTRL", "SHIFT"]
+key = "V"
+
+# Example custom shortcut: Ctrl+Alt+F to find text
+[[keybindings.find_text]]
+mods = ["CTRL", "ALT"]
+key = "F"
+
+# Example custom shortcut: Ctrl+Alt+R to reload configuration
+[[keybindings.reload_config]]
+mods = ["CTRL", "ALT"]
+key = "R"
