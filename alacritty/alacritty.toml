@@ -34,5 +34,5 @@ y = 3
 
 [colors.cursor]
 text = "CellBackground"
-cursor = "CellForeground"
+
 
