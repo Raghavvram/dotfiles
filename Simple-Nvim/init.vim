@@ -79,3 +79,16 @@ tnoremap <A-Left> <C-\><C-n>:wincmd h<CR>
 tnoremap <A-Right> <C-\><C-n>:wincmd l<CR>
 tnoremap <A-Up> <C-\><C-n>:wincmd k<CR>
 tnoremap <A-Down> <C-\><C-n>:wincmd j<CR>
+
+" Keybindings for Tab Management
+" Create new tab
+nnoremap <A-c> :tabnew<CR>
+
+" Close current tab
+nnoremap <A-w> :tabclose<CR>
+
+" Switch to next tab
+nnoremap <A-n> :tabnext<CR>
+
+" Switch to previous tab
+nnoremap <A-p> :tabprevious<CR>
