@@ -8,3 +8,5 @@ key = "C"
 [[keybindings.paste]]
 mods = ["CTRL", "SHIFT"]
 key = "V"
+
+
