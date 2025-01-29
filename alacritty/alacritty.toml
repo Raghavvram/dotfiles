@@ -89,7 +89,7 @@ bright:
   blue:    "0xd6acff"
   magenta: "0xff92df"
   cyan:    "0xa4ffff"
-  white:   "0xffffff"
+
 
 # Custom keybindings
 [keybindings]
