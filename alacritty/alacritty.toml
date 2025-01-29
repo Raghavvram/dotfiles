@@ -1,12 +1,1 @@
 
-import = ["themes/thelovelace.toml"]
-
-# Shell program configuration
-[shell]
-# Use Git Bash as the shell program
-program = "C:/Program Files/Git/bin/bash.exe -i -l"
-
-# Cursor configuration
-[cursor]
-# Set cursor style to underline
-style = "Underline"
