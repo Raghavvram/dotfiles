@@ -68,7 +68,6 @@ primary:
 
 # Set selection color
 selection:
-  background: "0x44475a"
 
 # Set color scheme for normal mode
 
