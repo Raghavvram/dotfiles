@@ -1,5 +1,3 @@
-
-# Set syntax highlighting colors
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=${DARK_RED}"  # Command not found
 ZSH_HIGHLIGHT_STYLES[default]="fg=${DARK_BLUE}"       # Command found
