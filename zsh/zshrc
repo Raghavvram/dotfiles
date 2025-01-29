@@ -1,6 +1,3 @@
-unset __conda_setup
-# <<< conda initialize <<<
-
 # Alias
 alias ls='lsd -a'
 alias install='sudo nala install'
