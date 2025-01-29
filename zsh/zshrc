@@ -1,0 +1,59 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Set the color scheme
+# export ZSH_HIGHLIGHT_STYLES=(fg=red,bg=black)
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# Custom color scheme
+DARK_RED='#8B0000'
+DARK_BLUE='#00008B'
+
+# Set syntax highlighting colors
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=${DARK_RED}"  # Command not found
+ZSH_HIGHLIGHT_STYLES[default]="fg=${DARK_BLUE}"       # Command found
+
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/raghav/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/raghav/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/raghav/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/raghav/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Alias
+alias ls='lsd -a'
+alias install='sudo nala install'
+alias purge='sudo nala purge'
+alias update='sudo nala update && sudo nala full-upgrade -y'
+alias lgin='bash ~/Documets/scripts/login.sh'
+alias lgout='bash ~/Documents/scripts/logout.sh'
+
+# StartUp
+# fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
+
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
