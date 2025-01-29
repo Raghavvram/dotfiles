@@ -1,12 +1,1 @@
 
-# Example custom shortcut: Ctrl+Shift+C to copy
-[[keybindings.copy]]
-mods = ["CTRL", "SHIFT"]
-key = "C"
-
-# Example custom shortcut: Ctrl+Shift+V to paste
-[[keybindings.paste]]
-mods = ["CTRL", "SHIFT"]
-key = "V"
-
-
