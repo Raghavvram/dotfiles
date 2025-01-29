@@ -19,7 +19,7 @@ style = "Bold"
 [window]
 startup_mode = "Maximized"
 blur = true
-decorations = "Full"
+
 
 
 
