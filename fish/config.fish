@@ -81,7 +81,7 @@ end
 Custom Keybindings:
 Ctrl+t: Create a new tmux session.
 Ctrl+s: Save and close the current file (useful for text editors like nano).
-Ctrl+q: Quit the terminal.
+# Ctrl+q: Quit the terminal.
 # Ctrl+r: Reverse search through command history.
 # Ctrl+l: Clear the screen.
 # Ctrl+p: Open fzf (fuzzy finder) for quick file search.
