@@ -11,9 +11,4 @@ y = 3
 # columns = 90
 # lines = 25
 
-# Cursor color configuration
-[colors.cursor]
-# Set cursor text color to match cell background
-text = "CellBackground"
-# Set cursor color to match cell foreground
-cursor = "CellForeground"
+
