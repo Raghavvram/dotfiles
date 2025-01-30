@@ -7,5 +7,3 @@ srgb = true
 tabs = true
 theme = "auto"
 title-hidden = true
-vsync = true
-
