@@ -1,6 +1,3 @@
-show_always = true
-style_root = "bold red"
-style_user = "bold red"
 
 # Second param
 [hostname]
