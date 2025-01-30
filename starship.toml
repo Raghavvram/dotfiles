@@ -1,5 +1,3 @@
-[battery]
-charging_symbol = ""
 # disabled = true
 discharging_symbol = ""
 full_symbol = ""
