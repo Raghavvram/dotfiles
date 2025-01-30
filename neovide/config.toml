@@ -19,4 +19,3 @@ style = "Bold"
 
 # Add these lines for transparency 
 transparency = true 
-transparency_amount = 0.6
