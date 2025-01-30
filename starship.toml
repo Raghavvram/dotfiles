@@ -1,5 +1,3 @@
-[nim]
-symbol = " "
 
 [nix_shell]
 symbol = " "
