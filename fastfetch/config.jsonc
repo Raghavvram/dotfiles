@@ -38,12 +38,7 @@
       "key": "  󰏗 Packages",
       "keyColor": "green"
     },
-    {
-      "type": "display",
-      "key": "  󰍹 Display",
-      "format": "{1}x{2} @ {3}Hz [{7}]",
-      "keyColor": "green"
-    },
+
 
 
  
