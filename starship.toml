@@ -1,7 +1,4 @@
 
-[nix_shell]
-symbol = " "
-
 [nodejs]
 symbol = " "
 
