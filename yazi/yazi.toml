@@ -8,4 +8,3 @@ linemode = "size"
 [preview]
 wrap = "yes"
 
-# place it in ~/.config/yazi/yazi.toml 
