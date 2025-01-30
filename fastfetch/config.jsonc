@@ -49,10 +49,5 @@
       "key": "  >_ Terminal",
       "keyColor": "yellow"
     },
-    {
-      "type": "wm",
-      "key": "  󱗃 WM",
-      "format": "{2}",
-      "keyColor": "yellow"
-    },
+
  
