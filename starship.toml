@@ -1,6 +1,3 @@
-
-# Last param in the first line/row
-[cmd_duration]
 # disabled = false
 format = "took [$duration]($style)"
 min_time = 1
