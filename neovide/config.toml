@@ -8,5 +8,4 @@ tabs = true
 theme = "auto"
 title-hidden = true
 vsync = true
-wsl = false
 
