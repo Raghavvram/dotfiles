@@ -13,5 +13,4 @@ wsl = false
 
 [font]
 normal =["CodeNewRoman Nerd Font Mono"] # Will use the bundled Fira Code Nerd Font by default
-size = 20.0
 
