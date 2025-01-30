@@ -1,5 +1,4 @@
 # yazi.toml
 [manager]
 ratio          = [ 2, 2, 4 ]
-show_hidden = true
 
