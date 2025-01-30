@@ -1,1 +1,118 @@
-
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/\" -name \"*.png\" | shuf -n 1)",
+    "height": 18
+  },
+  "display": {
+    "separator": " : "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[36m   I use ARCH LINUX btw"
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "  󰣇 OS",
+      "format": "{2}",
+      "keyColor": "\u001b[31m"  // Red
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "format": "{2}",
+      "keyColor": "\u001b[31m"  // Red
+    },
+    {
+      "type": "packages",
+      "key": "  󰏗 Packages",
+      "keyColor": "\u001b[32m"  // Green
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 Display",
+      "format": "{1}x{2} @ {3}Hz [{7}]",
+      "keyColor": "\u001b[32m"  // Green
+    },
+    {
+      "type": "terminal",
+      "key": "  >_ Terminal",
+      "keyColor": "\u001b[33m"  // Yellow
+    },
+    {
+      "type": "wm",
+      "key": "  󱗃 WM",
+      "format": "{2}",
+      "keyColor": "\u001b[33m"  // Yellow
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m"  // Cyan
+    },
+    {
+      "type": "title",
+      "key": "  ",
+      "format": "{6} {7} {8}"
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────┐"
+    },
+    {
+      "type": "cpu",
+      "format": "{1} @ {7}",
+      "key": "   CPU",
+      "keyColor": "\u001b[34m"  // Blue
+    },
+    {
+      "type": "gpu",
+      "format": "{1} {2}",
+      "key": "  󰊴 GPU",
+      "keyColor": "\u001b[34m"  // Blue
+    },
+    {
+      "type": "gpu",
+      "format": "{3}",
+      "key": "   GPU Driver",
+      "keyColor": "\u001b[35m"  // Magenta
+    },
+    {
+      "type": "memory",
+      "key": "    Memory",
+      "keyColor": "\u001b[35m"  // Magenta
+    },
+    {
+      "type": "command",
+      "key": "  󱦟 OS Age",
+      "keyColor": "\u001b[31m",  // Red
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+      "type": "uptime",
+      "key": "  󱫐 Uptime",
+      "keyColor": "\u001b[31m"  // Red
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m"  // Cyan
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    }
+  ]
+}
