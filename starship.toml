@@ -1,6 +1,3 @@
-
-[[battery.display]] # "bold green" style when capacity is between 50% and 80%
-# disabled = false
 style = "bold green"
 threshold = 80
 
