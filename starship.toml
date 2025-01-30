@@ -1,5 +1,3 @@
-## FIRST LINE/ROW: Info & Status
-# First param ─┌
 [username]
 format = " [╭─$user]($style)@"
 show_always = true
