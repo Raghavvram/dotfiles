@@ -81,10 +81,5 @@
       "key": "  󰊴 GPU",
       "keyColor": "blue"
     },
-    {
-      "type": "gpu",
-      "format": "{3}",
-      "key": "   GPU Driver",
-      "keyColor": "magenta"
     },
  
