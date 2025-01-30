@@ -6,5 +6,4 @@ sort_dir_first = true
 sort_by        = "alphabetical"
 linemode = "size"
 [preview]
-wrap = "yes"
 
