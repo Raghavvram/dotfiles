@@ -1,5 +1,3 @@
-style = "bold red"
-threshold = 15
 
 [[battery.display]] # "bold yellow" style when capacity is between 15% and 50%
 # disabled = true
