@@ -1,6 +1,3 @@
-
-# Before all the version info (python, nodejs, php, etc.)
-[git_status]
 ahead = "⇡${count}"
 behind = "⇣${count}"
 deleted = "x"
