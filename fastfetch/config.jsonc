@@ -26,13 +26,6 @@
       "key": "  󰣇 OS",
       "format": "{2}",
       "keyColor": "red"
-    },
-    {
-      "type": "kernel",
-      "key": "   Kernel",
-      "format": "{2}",
-      "keyColor": "red"
-    },
 
 
 
