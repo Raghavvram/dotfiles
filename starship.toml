@@ -1,5 +1,3 @@
-# disabled = false
-format = "[$hostname]($style) in "
 ssh_only = false
 style = "bold dimmed red"
 trim_at = "-"
