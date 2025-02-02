@@ -83,12 +83,17 @@ vim.api.nvim_set_keymap('t', '<A-Down>', '<C-\\><C-n>:wincmd j<CR>', { noremap =
 -- Keybindings for Tab Management
 -- Create new tab
 vim.api.nvim_set_keymap('n', '<A-c>', ':tabnew<CR>', { noremap = true }) -- Create a new tab with Alt + c
-
 -- Close current tab
 vim.api.nvim_set_keymap('n', '<A-w>', ':tabclose<CR>', { noremap = true }) -- Close the current tab with Alt + w
-
 -- Switch to next tab
 vim.api.nvim_set_keymap('n', '<A-n>', ':tabnext<CR>', { noremap = true }) -- Switch to the next tab with Alt + n
-
 -- Switch to previous tab
 vim.api.nvim_set_keymap('n', '<A-p>', ':tabprevious<CR>', { noremap = true }) -- Switch to the previous tab with Alt + p
+
+
+-- Set the background color to a transparent-friendly color
+vim.api.nvim_set_hl(0, "Normal", { ctermbg = "NONE", bg = "NONE" })
+vim.api.nvim_set_hl(0, "NonText", { ctermbg = "NONE", bg = "NONE" })
+vim.api.nvim_set_hl(0, "LineNr", { ctermbg = "NONE", bg = "NONE" })
+vim.api.nvim_set_hl(0, "EndOfBuffer", { ctermbg = "NONE", bg = "NONE" })
+
